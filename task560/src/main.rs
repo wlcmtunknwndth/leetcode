@@ -10,7 +10,7 @@ impl Solution {
         // [1, 2, 1, 2, 1]
         // sum(l, r) = prefix[r] - prefix[l]
         // prefix[l] = prefix[r] - sum(l, r)
-        // prefix[l] = , prefix[r] = sum, sum(l, r) = k
+        // prefix[r] = sum, sum(l, r) = k
         for num in nums {
             sum_r += num;
 
